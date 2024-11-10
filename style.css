@@ -1,0 +1,62 @@
+
+body {
+  text-align: center;
+  color: white;
+   background-image: url("https://cleverusername.neocities.org/Images/Background.png");
+  background-repeat: repeat;
+  font-family: 'FreePixel';
+   }
+ h1{
+    font-family: arial;
+    }
+ @font-face {
+    font-family: "FreePixel";
+    src: url("https://cleverusername.neocities.org/Images/FreePixel.ttf") format("truetype");
+ }
+a:link {
+  color: deeppink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+ .boxed {
+   width: 300px;
+  height: 100px;
+  border: 5px solid hotpink; 
+ box-sizing: border-box;
+position: absolute;
+    left: 500px;
+    top: 700px;
+    z-index: -1;
+} 
+#textbox1 {
+  background-color: black ;
+  padding: 10px ;
+  border: 2px solid pink ;
+  width: 700px;
+  height: 500px;
+  position: absolute;
+    left: 280px;
+    top: 70px;
+    z-index: -1;
+} 
+  
+
+
