@@ -1,18 +1,17 @@
 
 body {
+  font-family: "freePixel";
   text-align: center;
   color: white;
    background-image: url("https://cleverusername.neocities.org/Images/Background.png");
   background-repeat: repeat;
-  font-family: 'FreePixel';
    }
- h1{
-    font-family: arial;
-    }
+
  @font-face {
-    font-family: "FreePixel";
-    src: url("https://cleverusername.neocities.org/Images/FreePixel.ttf") format("truetype");
+    font-family: "freePixel";
+    src: url("Images/FreePixel.ttf") format("truetype");
  }
+
 a:link {
   color: deeppink;
   background-color: transparent;
@@ -45,18 +44,21 @@ position: absolute;
     left: 500px;
     top: 700px;
     z-index: -1;
-} 
-#textbox1 {
-  background-color: black ;
-  padding: 10px ;
-  border: 2px solid pink ;
-  width: 700px;
-  height: 500px;
+   
+}
+.container {
   position: absolute;
-    left: 280px;
-    top: 70px;
-    z-index: -1;
+  text-align: center;
+  width: 1500px;height: 700px;  left:20px; top: 5px;
 } 
-  
+.Top {
+  position: relative;
+ top: 145px;
+  left: 180px;
+font-size: 20px;
+  text-decoration: underline;
+}
+
+
 
 
