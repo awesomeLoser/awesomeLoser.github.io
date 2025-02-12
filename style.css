@@ -13,19 +13,18 @@ body {
  }
 
 a:link {
-  color: deeppink;
+  color: blue;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: lightblue;
+  color: purple;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: pink;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -59,6 +58,46 @@ font-size: 20px;
   text-decoration: underline;
 }
 
+.Caption {
+  font-size: 14px;
+  color: black; 
+  position: relative; 
+  left: 10px;
+  top: 580px;
+  margin: 4px 4px;
+}
+
+.Command {
+  font-family: calibri;
+  font-size: 30px;
+  color: black; 
+  text-decoration: underline;
+  position: relative;
+    display: inline-block;
+  top: 580px;
+  width: 318px;
+  margin: 25px 25px;
+}
+
+.Triangle {
+  font-family: calibri;
+  font-size: 30px;
+  color: black; 
+  position: relative; 
+  display: inline-block;
+  left: -100px;
+  top: 580px;
+  width: 10px;
+  margin: 25px 25px;
+}
+
+.Panel {
+  width: 650px;
+  height: 450px;
+  position: absolute;
+  left:650px;
+  top: 115px;
+}
 
 
 
