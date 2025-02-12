@@ -1,0 +1,103 @@
+
+body {
+  font-family: "freePixel";
+  text-align: center;
+  color: white;
+   background-image: url("https://cleverusername.neocities.org/Images/Background.png");
+  background-repeat: repeat;
+   }
+
+ @font-face {
+    font-family: "freePixel";
+    src: url("Images/FreePixel.ttf") format("truetype");
+ }
+
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+ .boxed {
+   width: 300px;
+  height: 100px;
+  border: 5px solid hotpink; 
+ box-sizing: border-box;
+position: absolute;
+    left: 500px;
+    top: 700px;
+    z-index: -1;
+   
+}
+.container {
+  position: absolute;
+  text-align: center;
+  width: 1500px;height: 700px;  left:20px; top: 5px;
+} 
+.Top {
+  position: relative;
+ top: 145px;
+  left: 180px;
+font-size: 20px;
+  text-decoration: underline;
+}
+
+.Caption {
+  font-size: 14px;
+  color: black; 
+  position: relative; 
+  left: 10px;
+  top: 580px;
+  margin: 4px 4px;
+}
+
+.Command {
+  font-family: calibri;
+  font-size: 30px;
+  color: black; 
+  text-decoration: underline;
+  position: relative;
+    display: inline-block;
+  top: 580px;
+  width: 318px;
+  margin: 25px 25px;
+}
+
+.Triangle {
+  font-family: calibri;
+  font-size: 30px;
+  color: black; 
+  position: relative; 
+  display: inline-block;
+  left: -100px;
+  top: 580px;
+  width: 10px;
+  margin: 25px 25px;
+}
+
+.Panel {
+  width: 650px;
+  height: 450px;
+  position: absolute;
+  left:650px;
+  top: 115px;
+}
+
+
+
